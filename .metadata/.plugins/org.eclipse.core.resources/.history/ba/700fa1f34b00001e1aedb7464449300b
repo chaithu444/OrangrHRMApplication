@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name ="liveTech">
+	
+	<test name="OrangeHRM_Login">
+		<classes>
+			<class name="com.testNGOrangeHRM_Login.java"></class>."
+		</classes>
+	</test>
+	
+	
+</suite>

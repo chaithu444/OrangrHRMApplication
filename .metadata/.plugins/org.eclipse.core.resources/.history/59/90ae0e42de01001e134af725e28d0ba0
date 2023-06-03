@@ -1,0 +1,13 @@
+<suite name="OrangeHRM Application">
+	<test name= "chrome">
+		<parameter> name="Browser"value="chrome"/>
+			<classes>
+				<class name=
+			</classes>
+			
+		</parameter>
+	</test>
+	
+	
+	
+</suite>

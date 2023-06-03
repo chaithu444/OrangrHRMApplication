@@ -1,0 +1,23 @@
+package com.qa.base;
+
+import org.testng.annotations.Test;
+
+import com.qa.pages.HomePageClass;
+
+public class testclass extends BaseClass{
+  @Test(priority=0)
+  public void URL() {
+	  
+	driver.manage().window().maximize();
+	driver.get("http://www.google.co.in/");
+  }
+	
+	@Test(priority=1)
+
+private void CallingHomePage() {
+	HomePageClass HC= new HomePageClass(driver);
+	HC.links();
+	
+}
+}
+
